@@ -1,0 +1,29 @@
+#notfound {
+  /* overflow: hidden; */
+  position: relative;
+  /* height: ; */
+  scrollbar-width: none;
+}
+
+.notfound-logo {
+  position: absolute;
+  cursor: pointer;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.notfound-logo > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.notfound-logo > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+}

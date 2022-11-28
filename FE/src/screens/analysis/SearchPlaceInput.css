@@ -1,0 +1,49 @@
+.input_place_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 92%;
+  height: 50px;
+  background: rgb(255, 234, 210, 0.8);
+  border-radius: 15px;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+.input_icon {
+  margin: 0px 5px;
+}
+
+.input_border {
+  height: 70%;
+  border: 1px solid rgb(184, 146, 101, 0.4);
+  margin: 0px 0px 0px 7px;
+}
+
+.text_input_wrap {
+  width: 100%;
+  height: 50px;
+  background: rgb(255, 234, 210, 0.8);
+  font-size: 15px;
+  border: 0px;
+  padding: 0px 5px;
+}
+
+.input_wrap.vibration {
+  animation: vibration 0.1s infinite;
+}
+
+.input_wrap.vibration::placeholder {
+  color: red;
+}
+
+@keyframes vibration {
+  from {
+    transform: rotate(1deg);
+  }
+
+  to {
+    transform: rotate(-1deg);
+  }
+}

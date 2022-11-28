@@ -1,0 +1,95 @@
+#rankingdetail {
+  width: 100vw;
+  /* height: 280vh; */
+  /* background-color: aliceblue; */
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.rankingdetail-container {
+  width: 100%;
+}
+
+.ranking-header {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+}
+
+.header__circle-in {
+  border-radius: 50%;
+  background-color: white;
+  width: 8vw;
+  height: 8vw;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 4px solid #ffa07a;
+  position: relative;
+  margin-top: 1vw;
+  margin-right: 5vw;
+}
+
+.circle-logo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1vw;
+}
+
+.img-wrapper > img {
+  width: 10vw;
+}
+
+.info-menu {
+  font-size: 28px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.info-menu > div:nth-child(n) {
+  margin-bottom: 12px;
+}
+
+.rankingdetail-container > hr {
+  margin-bottom: 80px;
+}
+
+.rankingdetail-body {
+  width: 80%;
+  /* height: 100%; */
+  margin: auto;
+  margin-top: 16vw;
+}
+
+.rankingdetail-body p {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8vh;
+}
+
+.chartclosurerates {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 30vh;
+}
+
+.chartfranchiseecount {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 30vh;
+}
+
+.chartcount {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 30vh;
+}

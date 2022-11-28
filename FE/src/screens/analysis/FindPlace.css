@@ -1,0 +1,520 @@
+.option_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.button_group_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 22%;
+  max-height: 120px;
+}
+
+.button_layer_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 60px;
+}
+
+.show_item_button_layer_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 60px;
+}
+
+.button_layer_wrap button {
+  width: 44%;
+  height: 80%;
+
+  margin: 5px 5px;
+  font-family: 'andong';
+}
+
+.show_item_button_layer_wrap button {
+  width: 94%;
+  height: 80%;
+
+  margin: 5px 5px;
+}
+
+.button {
+  background: rgb(251, 216, 175, 1);
+  border: 2px solid rgb(251, 216, 175, 0.3);
+  border-radius: 10px;
+  padding: 2px 5px;
+
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgb(233, 233, 233, 1);
+  border: 2px solid rgb(0, 0, 0, 1);
+  color: rgb(0, 0, 0, 1);
+}
+
+.button-active {
+  background: rgb(212, 171, 116, 1);
+  border: 2px solid rgb(212, 171, 116, 1);
+  border-radius: 10px;
+  padding: 4px 6px;
+
+  color: rgb(255, 255, 255, 1);
+  font-size: 17px;
+  text-align: center;
+
+  cursor: pointer;
+  font-family: 'andong';
+}
+
+.sector_options_wrap {
+  width: 100%;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.price_options_wrap {
+  width: 92%;
+  height: 25vh;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: scroll;
+}
+
+.price_options_wrap label {
+  font-family: 'andong';
+}
+
+.price_options_wrap span {
+  font-family: 'andong';
+}
+
+.floor_options_wrap {
+  width: 92%;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.floor_options_wrap label {
+  font-family: 'andong';
+}
+
+.floor_options_wrap span {
+  font-family: 'andong';
+}
+
+.items_list_wrap {
+  width: 92%;
+  height: 75%;
+  max-height: 200px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.items_wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.item_wrap {
+  border: 1px solid rgb(255, 246, 236, 1);
+  border-radius: 15px;
+  background-color: rgb(255, 246, 236, 1);
+  margin: 10px 0px;
+  padding: 10px;
+
+  cursor: pointer;
+}
+
+.item_wrap:hover {
+  border: 3px solid rgb(212, 167, 116, 1)
+}
+
+.empty_item_list_wrap {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.empty_img_wrap {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+
+  background: rgb(255, 255, 255, 1);
+  border-radius: 100%;
+  border: 3px solid rgb(212, 171, 116);
+
+  padding: 10px 10px 5px 10px;
+}
+
+.empty_warning_message {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.item_wrap #mainTitle {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item_wrap #price {
+  color: rgb(105, 165, 219, 1);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item_wrap #floor {
+  color: black;
+  font-size: 12px;
+  font-weight: inherit;
+}
+
+.item_wrap #size {
+  color: black;
+  font-size: 12px;
+  font-weight: inherit;
+}
+
+.select_item_wrap {
+  width: 50px;
+  height: 100px;
+  background: rgb(255, 255, 255);
+}
+
+.item_detail_wrap {
+  width: 300px;
+  height: 98%;
+  background: #FFFFFF;
+  /* background: rgb(255, 246, 236, 1); */
+  border-radius: 15px;
+  margin: 1% 0px;
+
+  position: absolute;
+  top: 0px;
+  left: 340px;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.close_button_img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+
+  object-fit: contain;
+  cursor: pointer;
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close_button_img:hover {
+  background-color: rgb(233, 233, 233, 1);
+}
+
+.title_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.title_wrap #price {
+  color: rgb(105, 165, 219, 1);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.near_station_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.near_station_wrap img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 3px;
+
+  object-fit: contain;
+}
+
+.near_station_wrap #station {
+  color: black;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.title_img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.item_intro_wrap {
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.building_type_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.building_img_wrap {
+  width: 60px;
+  height: 50px;
+  object-fit: contain;
+  margin: 5px;
+}
+
+.building_type_wrap #title {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.building_type_wrap #data {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.detail_border_wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail_border_wrap hr {
+  width: 95%;
+}
+
+.detail_feature_wrap {
+  color: black;
+  font-size: 16px;
+  margin: 0px 10px;
+  font-weight: 500;
+}
+
+.chart_title {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  top: 10px;
+  z-index: 2;
+}
+
+.chart_title .person_img {
+  width: 20px;
+  height: 20px;
+
+  object-fit: contain;
+  margin: 0px;
+}
+
+.chart_wrap {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  left: 3px;
+}
+
+.chart_perhour_wrap {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  bottom: 30px;
+}
+
+.perhour_title {
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+  top: 35px;
+}
+
+.daydata_wrap {
+  position: relative;
+  top: 0;
+  right: 50px;
+}
+
+.daydata_wrap li {
+  color: black;
+  font-size: 11px;
+
+  width: 100px;
+  margin: 2px 0px;
+}
+
+.detail_icon_wrap {
+  width: 100%;
+  height: 30px;
+  padding-right: 15px;
+  padding-top: 10px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bookmark_icon_wrap {
+  border-radius: 100%;
+  margin: 0px 5px;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.bookmark_icon_wrap:hover {
+  background-color: rgb(211, 211, 211, 0.5);
+}
+
+.link_icon_wrap {
+  border-radius: 100%;
+  margin: 0px 5px;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.link_icon_wrap:hover {
+  background-color: rgb(211, 211, 211, 0.5);
+}
+
+.item_score_wrap {
+  width: 100%;
+  height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item_score_main_title {
+  color: black;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.all_score_wrap {
+  width: 92%;
+  background-color: rgb(251, 216, 175, 0.5);
+  border-radius: 20px;
+}
+
+.compete_score_wrap .sub_title {
+  width: 100px;
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.compete_score_wrap {
+  width: 100%;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  padding: 0px 20px;
+}
+
+.link_wrap:hover {
+  background-color: rgb(211, 211, 211, 1);
+}
+
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+  background: white;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: 2px solid red;
+}
+
+.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: red;
+}
+
+@font-face {
+  font-family: "andong";
+  src: url("../../assets/font/Katuri.ttf");
+}

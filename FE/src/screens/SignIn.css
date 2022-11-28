@@ -1,0 +1,145 @@
+#signin-page {
+  display: flex;
+  justify-content: center;
+}
+
+.login-banner {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  opacity: 0.9;
+}
+
+.login-banner > img {
+  width: 100%;
+}
+
+.signin-div {
+  width: 500px;
+  min-width: 500px;
+  height: 650px;
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 2px 2px #592941;
+  border: 0.1em solid #592941;
+  border-radius: 0.5em;
+  background-color: white;;
+  position: absolute;
+  margin: auto;
+  top: 35%;
+  z-index: 3;
+}
+
+.signinform {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.signintitle {
+  font-weight: bold;
+  font-size: large;
+  margin: 0;
+}
+
+.title-h1 {
+  font-weight: bold;
+  margin: 20px;
+  padding: auto auto 20px 20px;
+  font-size: 42px;
+}
+
+.title-h1:hover {
+  font-size: 42px;
+}
+
+.signinput {
+  background-color: #E8F0FE;
+  border: 1px solid white;
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.signinButton {
+  margin: 10% 0 5px 0;
+  width: 100px;
+  width: auto;
+  color: black;
+  background-color: #FBD8AF;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px 95px;
+  font-size: 18px;
+}
+
+.signinButton:hover {
+  margin: 30px 0 5px 0;
+  width: 126px;
+  width: auto;
+  color: black;
+  background-color: #FBD8AF;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px 108px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.kakaologinimg {
+  width: 244px;
+  height: 47px;
+}
+
+.kakaologinimg:hover {
+  width: 280px;
+  height: 70x;
+}
+
+.gosignup-p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 15% 0 0 0;
+  align-self: start;
+  padding: 15px 70px;
+  width: 100%;
+}
+
+.gosignupLink:hover {
+  font-size: 20px;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}
+
+.kakaologinbutton {
+  width: 240px;
+  height: 47px;
+  background-color: #FEE500;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.kakaologinbutton:hover {
+  margin: 10px 0 5px 0;
+  height: 55px;
+  width: auto;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
+}

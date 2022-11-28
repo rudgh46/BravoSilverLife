@@ -1,0 +1,132 @@
+#signup-page {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-banner {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  opacity: 0.8;
+}
+
+.signup-banner > img {
+  width: 100%;
+}
+
+.signupdiv {
+  width: 500px;
+  min-width: 500px;
+  height: 650px;
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 2px 2px #592941;
+  border: 0.1em solid #592941;
+  border-radius: 0.5em;
+  background-color: white;;
+  position: absolute;
+  margin: auto;
+  top: 35%;
+  z-index: 3;
+}
+
+.title-h1 {
+  font-weight: bold;
+  margin: 20px;
+  padding: auto auto 20px 20px;
+  font-size: 42px;
+}
+
+.title-h1:hover {
+  font-size: 42px;
+}
+
+.signupform {
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.signinput {
+  background-color: #E8F0FE;
+  border: 1px solid white;
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.getauthnumber {
+  margin-top: 10px;
+  width: 100px;
+  width: auto;
+  color: black;
+  background-color: rgb(214, 214, 214);
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px 68px;
+  font-size: 18px;
+}
+
+.getauthnumber:hover {
+  margin: 10px 0 5px 0;
+  width: auto;
+  color: black;
+  background-color: rgb(205, 205, 205);
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px 78px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.signupbutton {
+  margin-top: 10px;
+  width: auto;
+  color: black;
+  background-color: #FBD8AF;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px 86px;
+  font-size: 18px;
+}
+
+.signupbutton:hover {
+  margin: 10px 0 5px 0;
+  width: auto;
+  color: black;
+  background-color: #FBD8AF;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px 108px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gosignin-p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  align-self: start;
+  margin-top: 30px;
+  padding-left: 70px;
+  width: 100%;
+}
+
+.gosigninLink:hover {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}

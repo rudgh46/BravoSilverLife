@@ -1,0 +1,6 @@
+#map {
+  width: 100%;
+  height: 100vh;
+
+  background: url("https://t1.daumcdn.net/mapjsapi/images/2x/bg_tile.png")
+}

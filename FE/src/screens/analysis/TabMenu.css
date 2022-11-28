@@ -1,0 +1,38 @@
+.tabs_wrap {
+  width: 92%;
+  margin-top: 10px;
+}
+
+.findplace_tab_page {
+  width: 100%;
+  height: 100%;
+}
+
+.bookmark_tab_page {
+  width: 100%;
+  height: 100%;
+}
+
+.nav.nav-tabs .nav-link {
+  color: black;
+  background-color: #FFF6EC;
+  border: 1px solid #FFF6EC;
+}
+
+.nav.nav-tabs .nav-link:hover {
+  border: 1px solid #FFF6EC;
+}
+
+.nav.nav-tabs .nav-link.active {
+  color: black;
+  font-weight: bold;
+  background-color: #FFEAD2;
+  border: 1px solid #FFEAD2;
+}
+
+.tab-content {
+  width: 92%;
+  height: 100%;
+  background-color: #FFEAD2;
+  border-radius: 0px 0px 15px 15px;
+}
